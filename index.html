@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SmartList</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">SmartList</h1>
+    </header>
+    <main>
+        <section class="todo-section">
+            <h2>Minhas Tarefas</h2>
+            <ol class="todo-list">
+                <li>
+                    <span class="task-text">Academia</span>
+                    <div class="buttons">
+                        <button class="edit-btn">Editar</button>
+                        <button class="delete-btn">Excluir</button>
+                        <button class="complete-btn">Concluir</button>
+                    </div>
+                </li>
+                <li>
+                    <span class="task-text">Organizar finanças</span>
+                    <div class="buttons">
+                        <button class="edit-btn">Editar</button>
+                        <button class="delete-btn">Excluir</button>
+                        <button class="complete-btn">Concluir</button>
+                    </div>
+                </li>
+                <li>
+                    <span class="task-text">Boxe</span>
+                    <div class="buttons">
+                        <button class="edit-btn">Editar</button>
+                        <button class="delete-btn">Excluir</button>
+                        <button class="complete-btn">Concluir</button>
+                    </div>
+                </li>
+            </ol>
+            <form class="todo-form">
+                <input type="text" placeholder="Adicione uma nova tarefa" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section class="finance-section">
+            <h2>Resumo Financeiro</h2>
+            <p>Saldo atual: R$ <span id="saldo">100,00</span></p>
+            <p>Despesas: - R$ <span id="despesas">50,00</span></p>
+            <p>Receitas: R$ <span id="receitas">150,00</span></p>
+            <div class="finance-buttons">
+                <button class="finance-btn">Cadastrar Recebimento</button>
+                <button class="finance-btn">Cadastrar Gasto</button>
+                <button class="finance-btn">Dicas de Investimento</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SmartList</p>
+    </footer>
+</body>
+</html>

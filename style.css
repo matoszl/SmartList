@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+.titulo {
+    font-family: cursive;
+}
+
+main {
+    padding: 20px;
+}
+
+.todo-section,
+.finance-section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-section h2,
+.finance-section h2 {
+    margin-top: 0;
+}
+
+.todo-form input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+.todo-form button {
+    padding: 10px;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-form button:hover {
+    background-color: #45a049;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    padding: 10px;
+    background: #fafafa;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.todo-list button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #ffa500;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #ff8c00;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+.complete-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #45a049;
+}
+
+.finance-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.finance-btn {
+    flex: 1;
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.finance-btn:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #749075;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
