@@ -1,4 +1,4 @@
-#SmartList
+# SmartList
 
 SmartList é uma aplicação de TODOList inteligente que integra funcionalidades financeiras, tornando-se uma solução fintech completa. Com SmartList, você pode gerenciar suas tarefas diárias e ao mesmo tempo manter o controle das suas finanças pessoais.
 
